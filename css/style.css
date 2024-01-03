@@ -4,7 +4,28 @@
     padding: 0;
 }
 
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
 .promo{
     height: 800px;
-    background-color: red;
+    background: url(../img/bg/kace-rodriguez-p3OzJuT_Dks-unsplash.jpg) center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text{
+    color: #ffff;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
 }
