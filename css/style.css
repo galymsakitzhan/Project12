@@ -95,7 +95,7 @@ h2.title{
 }
 
 .more {
-    margin-top: 73px;
+    margin-top: -50px;
 }
 
 .more .more_text {
@@ -113,4 +113,62 @@ h2.title{
     width: 30px;
     margin: 0 auto;
     margin-top: 15px;
+}
+
+.waiting{
+    height: 604px;
+    background-color: #efefef;
+    padding: 83px 0 75px 0;
+}
+
+.waiting .waiting_header{
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.waiting .waiting_divider{
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    
+}
+
+.waiting .waiting_subheader{
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 38px;
+    width: 300px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr{
+    margin-top: 13px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
 }
